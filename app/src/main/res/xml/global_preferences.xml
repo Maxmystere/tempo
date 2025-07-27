@@ -77,7 +77,7 @@
 
         <SwitchPreference
             android:title="@string/settings_music_directory"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:summary="@string/settings_music_directory_summary"
             android:key="music_directory_section_visibility" />
     </PreferenceCategory>
@@ -129,7 +129,7 @@
 
         <SwitchPreference
             android:title="@string/settings_sync_starred_tracks_for_offline_use_title"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:summary="@string/settings_sync_starred_tracks_for_offline_use_summary"
             android:key="sync_starred_tracks_for_offline_use" />
 
@@ -164,7 +164,7 @@
 
         <SwitchPreference
             android:title="@string/settings_audio_transcode_priority_title"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:summary="@string/settings_audio_transcode_priority_summary"
             android:key="audio_transcode_priority" />
 
@@ -228,7 +228,7 @@
 
         <SwitchPreference
             android:title="@string/settings_audio_transcode_download_priority_title"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:summary="@string/settings_audio_transcode_download_priority_summary"
             android:key="audio_transcode_download_priority" />
 
